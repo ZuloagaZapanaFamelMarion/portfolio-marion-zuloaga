@@ -1,0 +1,12 @@
+{
+  "name": "marion-zuloaga-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix frontend install && npm --prefix backend install",
+    "dev:frontend": "npm --prefix frontend start",
+    "dev:backend": "npm --prefix backend run start:dev",
+    "build": "npm --prefix frontend run build && npm --prefix backend run build",
+    "lint": "npm --prefix backend run lint"
+  }
+}
