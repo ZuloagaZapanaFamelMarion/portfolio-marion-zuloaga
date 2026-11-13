@@ -44,6 +44,34 @@ export class AppComponent {
 
   readonly projects: Project[] = [
     {
+      title: 'Dashboard GHG',
+      eyebrow: 'Frontend · Visualización',
+      description:
+        'Dashboard responsivo para explorar indicadores de emisiones mediante gráficos claros y una interfaz orientada a decisiones.',
+      repository: 'https://github.com/ZuloagaZapanaFamelMarion/GHG-Dashboard-Design',
+      demo: 'https://zuloagazapanafamelmarion.github.io/GHG-Dashboard-Design/',
+      technologies: ['React', 'Tailwind CSS', 'Chart.js', 'Vite'],
+      accent: 'cyan',
+    },
+    {
+      title: 'WonPLUS',
+      eyebrow: 'Full stack · Ventas',
+      description:
+        'Sistema de gestión de ventas, productos, usuarios y reportes con frontend Angular, lógica de negocio en Java y persistencia de datos.',
+      repository: 'https://github.com/ZuloagaZapanaFamelMarion/WonPLUS',
+      technologies: ['Angular', 'TypeScript', 'Java', 'PHP', 'MySQL'],
+      accent: 'green',
+    },
+    {
+      title: 'Citas médicas',
+      eyebrow: 'Backend · Gestión clínica',
+      description:
+        'Sistema para administrar pacientes, médicos, horarios y citas, con separación entre interfaz, negocio y acceso a base de datos.',
+      repository: 'https://github.com/ZuloagaZapanaFamelMarion/citas-medicas-app',
+      technologies: ['Java', 'Swing', 'JDBC', 'MySQL', 'NetBeans'],
+      accent: 'violet',
+    },
+    {
       title: 'Servicios financieros',
       eyebrow: 'API modular',
       description:
@@ -51,35 +79,6 @@ export class AppComponent {
       repository:
         'https://github.com/ZuloagaZapanaFamelMarion/Servicios-Financieros-con-NestJS-',
       technologies: ['NestJS', 'TypeScript', 'PostgreSQL', 'TypeORM', 'Swagger'],
-      accent: 'cyan',
-    },
-    {
-      title: 'Dashboard GHG',
-      eyebrow: 'Visualización de datos',
-      description:
-        'Dashboard responsivo para explorar indicadores de emisiones mediante gráficos claros y una interfaz orientada a decisiones.',
-      repository: 'https://github.com/ZuloagaZapanaFamelMarion/GHG-Dashboard-Design',
-      demo: 'https://zuloagazapanafamelmarion.github.io/GHG-Dashboard-Design/',
-      technologies: ['React', 'Tailwind CSS', 'Chart.js', 'Vite'],
-      accent: 'green',
-    },
-    {
-      title: 'My Orders',
-      eyebrow: 'Gestión de pedidos',
-      description:
-        'Aplicación web para consultar y gestionar pedidos, con navegación por rutas, modales e integración de servicios mediante Axios.',
-      repository: 'https://github.com/ZuloagaZapanaFamelMarion/My-Orders-app',
-      technologies: ['React', 'JavaScript', 'React Router', 'Axios'],
-      accent: 'violet',
-    },
-    {
-      title: 'Dataverse',
-      eyebrow: 'Experiencia interactiva',
-      description:
-        'Aplicación para filtrar, ordenar y visualizar información, acompañada de pruebas unitarias y end-to-end.',
-      repository: 'https://github.com/ZuloagaZapanaFamelMarion/DEV014-Dataverse',
-      demo: 'https://zuloagazapanafamelmarion.github.io/DEV014-Dataverse/',
-      technologies: ['JavaScript', 'HTML5', 'CSS3', 'Jest', 'Playwright'],
       accent: 'amber',
     },
   ];
